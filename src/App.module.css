@@ -1,0 +1,16 @@
+
+h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 86px;
+    transition: 0.5s;
+}
+.box{
+    display: flex;
+    background-color: bisque;
+    height: 100%;
+}
+h1:hover {
+    transform: scale(103%);
+    text-shadow:0 0 16px rgba(255, 255, 255, 0.4);
+}
